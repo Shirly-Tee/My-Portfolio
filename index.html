@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Raleway:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;900&display=swap" 
+      rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title> Portfolio</title>
+</head>
+<body>
+    <header class="fixed top-0 right-0 left-0 z-10 relative">
+        <div class=" nav-all w-full flex flex-row  px-4 md:px-20  py-4  justify-between items-center md:flex bg-black">
+            <p class="flex logo text-white font-semibold justify-center items-center px-5 py-4 ">AT</p>
+            <div class="navbar hidden sm:flex flex-row gap-5 ">
+                <a href="#hero" class="link font-medium">Home</a>
+                <a href="#about" class=" text-white font-medium">About me</a>
+                <a href="#" class="link	font-medium">Contact me</a>
+                <a href="#" class="text-white font-medium	">Portfolio</a>
+            </div>
+            <a href="#" class="resume hidden sm:flex  px-4 py-2 font-medium  text-white ">
+                View resume
+            </a>
+            <a href="#" class=" navbtn flex text-white sm:hidden text-3xl">
+                <i class='bx bx-menu'></i>
+            </a>
+        </div>
+        <div class=" hidden sidebar flex  w-full absolute sm:hidden top-10 bg-black px-4 py-10 left-80">
+            <div class="bar flex flex-col abolute gap-5">
+                <a href="#" class="link font-medium ">Home</a>
+                <a href="#" class=" text-white font-medium">About me</a>
+                <a href="#" class="link font-medium">Contact me</a>
+                 <a href="#" class=" text-white	font-medium">Portfolio</a>
+                 <a href="#" class="resume px-4 py-2 font-semibold text-white ">
+                    View resume
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero w-full  flex flex-col sm:h-screen md:justify-center items-center top-0 sm:items-start ">
+            <div class=" content flex flex-col ml-4 mr-12 sm:ml-16 md:ml-40 pt-10 sm:pt-0 pb-20 md:pb-0">
+                <h1 class="text-4xl sm:text-5xl	design text-white font-semibold pt-20 md:pt-0 ">Hi, I am <span class="name text-5xl">Adeleke Taiwo</span></h1>
+                <p class="text-white work mt-12 text-xl	font-normal	">
+                    A passionate  <span class="name">Frontend Developer</span> transforming ideas  into <br>
+                    stunning digital experiences. Let’s create something amazing
+                </p>
+            </div>
+        </section>
+        <section class="about flex w-full  mt-0 pb-14">
+            <div class="wrapper flex flex-col md:flex-row ml-4 mr-12 sm:ml-16 md:ml-30 lg:ml-40">
+                <div class="right w-full md:w-1/2 flex flex-col gap-4 py-20 border-b-2 sm:border-0 border-gray-600	">
+                    <h1 class="text-3xl md:text-4xl text center">About me</h1>
+                    <p class="mt-10 pr-10">Lorem ipsum dolor sit amet, consecteur adipisicing edit,sed 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        enim ad minim venaim, quis nostrud exercitation ultamcolabori
+                        nosi ut alliquip ex ea commodo consequat. Duis aute irure dolr 
+                        in reprehenderit in voluptate.
+                     </p>
+                    <a href="#" class="resume flex  px-4 py-2 font-semibold text-white mt-6">
+                        View resume
+                    </a>
+                </div>
+                <div class="left w-full md:w-1/2 flex flex-col gap-2 md:py-20 md:items-center  pt-20 pb-16 sm:pt-0">
+                    <h1 class="text-center text-4xl">Skills</h1>
+                    <div class="left1 flex flex-row gap-6 md:gap-10  md:items-center md:justify-center mt-8">
+                        <p class="flex skill text-white text-sm font-semibold justify-center items-center ">HTML</p>
+                        <p class="flex skill text-white text-sm font-semibold justify-center items-center ">CSS</p>
+                        <p class="flex skill text-white text-sm font-semibold justify-center items-center ">Tailwind</p>
+                    </div>
+                    <div class="left1 flex flex-row gap-6 md:gap-10  md:items-center md:justify-center mt-8">
+                        <p class="flex skill text-white text-sm font-semibold justify-center items-center ">SaSS</p>
+                        <p class="flex skill text-white text-sm font-semibold justify-center items-center ">Github</p>
+                        <p class="flex skill text-white text-sm font-semibold justify-center items-center ">React</p>
+
+                    </div>
+                    <div class="left1 flex flex-row gap-6 md:gap-10  md:items-center md:justify-center mt-8">
+                        <p class="flex skill text-white text-sm font-semibold justify-center items-center ">Bootstrap</p>
+                        <p class="flex skill text-white text-sm font-semibold justify-center items-center ">UI</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services flex w-full">
+            <div class="wrapper flex flex-col ml-4  mr-4 sm:ml-16 sm:mr-16 md:ml-30 lg:ml-36 py-20 lg:mr-36 ">
+                <h1 class="text-3xl md:text-4xl text-white font-bold text-center py-10">Services</h1>
+                <div class="service flex flex-col lg:flex-row gap-6 mt-12 ">
+                    <div class="service1 flex flex-col px-6 py-10 gap-2 rounded-2xl	">
+                        <i class='bx bxs-webcam text-black text-5xl'></i>
+                        <h1 class="font-bold text-black text-2xl">UI Designer</h1>
+                        <p class="font-black font-medium text-md">Crafting user-centric digital experiences 
+                            that  seamlessly blend the functionality. 
+                            Expert in user-centered design and 
+                            responsive interfaces using Figma
+                        </p>
+                    </div>
+                    <div class="service2 flex flex-col px-6 py-10 gap-2 rounded-2xl	">
+                        <i class='bx bx-laptop text-black text-5xl'></i>
+                        <h1 class="font-bold text-black text-2xl">Web Development</h1>
+                        <p class="font-black font-medium text-md">
+                            I use my knowledge of  various  
+                            programming language such as Sass 
+                            Tailwind, Bootstrap, Html, Css, Github e.t.c 
+                            to build digital solutions for users
+
+                        </p>
+                    </div>
+                    <div class="service1 flex flex-col px-6 py-10 gap-2 rounded-2xl	">
+                        <i class='bx bx-globe-alt text-black text-5xl'></i>
+                        <h1 class="font-bold text-black text-2xl">SEO</h1>
+                        <p class="font-black font-medium text-md">
+                            Crafting user-centric digital experiences 
+                            that  seamlessly blend the functionality. 
+                            Expert in user-centered design and 
+                            responsive interfaces using Figma
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects flex w-full">
+            <div class="wrapper  flex flex-col  ml-4 mr-4 sm:mr-16 sm:ml-16 md:ml-30 lg:ml-30 md:mr-30">
+                <h1 class="text-3xl md:text-4xl text-white font-bold text-center py-10 mt-12">Recent Projects</h1>
+                <div class="project-all flex flex-col md:flex-row gap-4 mt-12 mb-12">
+                    <div class="project1 flex flex-col">
+                        <img src="assets/img/project.png" alt="" class="proimg">
+                        <p class="text-black p-10">my project</p>
+                    </div>
+                    <div class="project1 flex flex-col">
+                        <img src="assets/img/project.png" alt="" class="proimg">
+                        <p class="text-black p-10">my project</p>
+                    </div>
+                    <div class="project1 flex flex-col">
+                        <img src="assets/img/project.png" alt="" class="proimg">
+                        <p class="text-black p-10 ">my project</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="contact w-full">
+            <div class="wrapper flex flex-col  ml-4 mr-4 sm:mr-16 sm:ml-16 md:ml-30 lg:ml-30 md:mr-30">
+                <h1 class="text-3xl  text-white font-bold text-center pt-10 pb-4 mt-12">Contact <span>me</span></h1>
+                <p class="text-center text-white text-sm mb-10">I am currently open  to remote or contract opportunities in
+                    <br>Front End Development
+                </p>
+                <div class="awesome flex flex-col md:flex-row py-16 px-10 mb-10 lg:justify-center gap-4">
+                    <p class=" text-white">Have an awesome project idea?
+                       <br><span>Let’s Discuss.</span>
+                    </p>
+                    <div class="all flex flex-col  lg:flex-row gap-5 md:ml-20">
+                        <div class="flex flex-row icon align-center gap-2">
+                            <i class='flex bx bxs-phone me mt-2 items-center justify-center'></i>
+                            <p class="text-white mt-3">08148307667</p>
+                        </div>
+                        <div class="flex flex-row icon align-center gap-2">
+                            <i class='flex bx bxl-gmail mt-2 me items-center justify-center' ></i>
+                            <p class="text-white mt-3">taiwomary108@gmail.com</p>
+                        </div>
+                        <div class="flex flex-row icon align-center gap-2 md:hidden lg:flex">
+                            <i class='flex bx bxl-whatsapp mt-2 me items-center justify-center' ></i>
+                            <p class="text-white mt-3">08148307667</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer w-full flex flex-row justify-center items-center bg-black">
+        <div class="wrapper flex py-8 px-8 gap-20 md:gap-64 ml-4 mr-4 sm:mr-16 sm:ml-16 md:ml-30 lg:ml-30 md:mr-30">
+            <div class="social flex flex-col md:flex-row gap-2 ">
+                <p>Social handles</p>
+                <div class="handle flex flex-row mt-1 gap-2">
+                   <a href="https://twitter.com/Adeleke80219087"> <i class='bx bxl-twitter icon'></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100008152334969"><i class='bx bxl-facebook-circle icon' ></i></a>
+                    <a href="https://www.linkedin.com/in/adeleke-taiwo-24002122a"><i class='bx bxl-linkedin-square icon' ></i></a>
+                </div>
+            </div>
+            <p class="text-black">Designed and Developed by <br class="sm:hidden"><span>Adeleke Taiwo</span></p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
