@@ -19,6 +19,9 @@ a{
         color: #078478;
     }
 }
+.link{
+    color: #02DAC5;
+}
 header{
     
     background: transparent;
@@ -40,22 +43,13 @@ header{
         
     }
     .sidebar{
-        .bar{
-            right: -1000px;
-             &.active{
+        right: -1000px;
+        &.active{
             right: 0;
          }
-            .link{
-                color: #078478;
-            }
-        }
+         background: rgba(0, 0, 0, 0.123);
+         transition: all 0.9s ease-in-out;
     }
-    // .sidebar{
-    //     right: -1000px;
-    //     &.active{
-    //         right: 0;
-    //      }
-    // }
 }
 main{
     .hero{

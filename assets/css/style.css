@@ -23,6 +23,10 @@ a {
   color: #078478;
 }
 
+.link {
+  color: #02DAC5;
+}
+
 header {
   background: transparent;
   font-family: "Raleway", sans-serif;
@@ -37,14 +41,13 @@ header .nav-all .logo {
 header .nav-all .navbar .link {
   color: #02DAC5;
 }
-header .sidebar .bar {
+header .sidebar {
   right: -1000px;
+  background: rgba(0, 0, 0, 0.123);
+  transition: all 0.9s ease-in-out;
 }
-header .sidebar .bar.active {
+header .sidebar.active {
   right: 0;
-}
-header .sidebar .bar .link {
-  color: #078478;
 }
 
 main .hero {
