@@ -78,13 +78,7 @@ main{
             }
         }
     }
-    // ::before{
-    //     content: "";
-    //     color: #02DAC5;
-    //     width: 3px;
-    //     height: 40px;
-    //     left: -200px;
-    // }
+
     .about{
         background: #131313;
         .wrapper{
@@ -149,8 +143,9 @@ main{
                     .proimg{
                         height: 250px;
                     }
-                    p{
-                        background: #131313;
+                    .under{
+                        background: black;
+                        padding:20px;
                     }
                 }
             }

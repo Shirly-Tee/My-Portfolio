@@ -116,8 +116,9 @@ main .projects {
 main .projects .wrapper .project-all .project1 .proimg {
   height: 250px;
 }
-main .projects .wrapper .project-all .project1 p {
-  background: #131313;
+main .projects .wrapper .project-all .project1 .under {
+  background: black;
+  padding: 20px;
 }
 main .contact {
   background: #0D0E0E;
