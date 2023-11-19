@@ -13,27 +13,27 @@
 </head>
 <body>
     <header class="fixed top-0 right-0 left-0 z-10 relative">
-        <div class=" nav-all w-full flex flex-row  px-4 md:px-20  py-4  justify-between items-center md:flex bg-black">
+        <section class=" nav-all w-full flex flex-row  px-4 md:px-20  py-4  justify-between items-center md:flex bg-black fixed">
             <p class="flex logo text-white font-semibold justify-center items-center px-5 py-4 ">AT</p>
-            <div class="navbar hidden sm:flex flex-row gap-5 ">
-                <a href="#hero" class="link font-medium">Home</a>
+            <section class="navbar hidden sm:flex flex-row gap-5 ">
+                <a href="#home" class="link font-medium">Home</a>
                 <a href="#about" class=" text-white font-medium">About me</a>
-                <a href="#" class="link	font-medium">Contact me</a>
-                <a href="#" class="text-white font-medium	">Portfolio</a>
-            </div>
+                <a href="#contact" class="link	font-medium">Contact me</a>
+                <a href="#portfolio" class="text-white font-medium	">Portfolio</a>
+            </section>
             <a href="https://drive.google.com/file/d/1XUaJ3jZ5WtsURrzTrnaWOHA0dBS8oU9Z/view?usp=sharing" class="resume hidden sm:flex  px-4 py-2 font-medium  text-white ">
                 View resume
             </a>
             <a href="#" class=" navbtn flex text-white sm:hidden text-3xl">
                 <i class='bx bx-menu'></i>
             </a>
-        </div>
-        <div class=" sidebar flex  w-fit absolute sm:hidden top-30 bg-black px-4 ">
-            <div class="bar flex flex-col abolute gap-4">
-                <a href="#" class="link font-medium text-white ">Home</a>
-                <a href="#" class=" text-white font-medium">About me</a>
-                <a href="#" class="link font-medium text-white">Contact me</a>
-                 <a href="#" class=" text-white	font-medium">Portfolio</a>
+        </section>
+        <div class=" sidebar flex  w-fit absolute sm:hidden bg-black p-4 mt-0">
+            <div class="bar flex flex-col abolute gap-6">
+                <a href="#home" class="link font-medium text-white ">Home</a>
+                <a href="#about" class=" text-white font-medium">About me</a>
+                <a href="#contact" class="link font-medium text-white">Contact me</a>
+                 <a href="#portfolio" class=" text-white	font-medium">Portfolio</a>
                  <a href="https://drive.google.com/file/d/1XUaJ3jZ5WtsURrzTrnaWOHA0dBS8oU9Z/view?usp=sharing" class="resume px-4 py-2 font-semibold text-white ">
                     View resume
                 </a>
@@ -41,7 +41,7 @@
         </div>
     </header>
     <main>
-        <section class="hero w-full  flex flex-col sm:h-screen md:justify-center items-center top-0 sm:items-start ">
+        <section id="home" class="hero w-full  flex flex-col sm:h-screen md:justify-center items-center top-0 sm:items-start ">
             <div class=" content flex flex-col ml-4 mr-12 sm:ml-16 md:ml-40 pt-10 sm:pt-0 pb-20 md:pb-0">
                 <h1 class="text-4xl sm:text-5xl	design text-white font-semibold pt-20 md:pt-0 ">Hi, I am <span class="name text-5xl">Adeleke Taiwo</span></h1>
                 <p class="text-white work mt-12 text-xl	font-normal	">
@@ -50,7 +50,7 @@
                 </p>
             </div>
         </section>
-        <section class="about flex w-full  mt-0 pb-14">
+        <section id="about"  class="about flex w-full  mt-0 pb-14">
             <div class="wrapper flex flex-col md:flex-row ml-4 mr-12 sm:ml-16 md:ml-30 lg:ml-40">
                 <div class="right w-full md:w-1/2 flex flex-col gap-4 py-20 border-b-2 sm:border-0 border-gray-600	">
                     <h1 class="text-3xl md:text-4xl text center">About me</h1>
@@ -121,7 +121,7 @@
                 </div>
             </div>
         </section>
-        <section class="projects flex w-full">
+        <section id="portfolio"  class="projects flex w-full">
             <div class="wrapper  flex flex-col  ml-4 mr-4 sm:mr-16 sm:ml-16 md:ml-30 lg:ml-30 md:mr-30">
                 <h1 class="text-3xl md:text-4xl text-white font-bold text-center py-10 mt-12">Recent Projects</h1>
                 <div class="project-all flex flex-col md:flex-row gap-4 mt-12 mb-12">
@@ -141,7 +141,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact w-full">
+        <section  id="contact" class="contact w-full">
             <div class="wrapper flex flex-col  ml-4 mr-4 sm:mr-16 sm:ml-16 md:ml-30 lg:ml-30 md:mr-30">
                 <h1 class="text-3xl  text-white font-bold text-center pt-10 pb-4 mt-12">Contact <span>me</span></h1>
                 <p class="text-center text-white text-sm mb-10">I am currently open  to remote or contract opportunities in

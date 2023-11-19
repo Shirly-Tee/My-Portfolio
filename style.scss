@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Raleway:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
 }
@@ -47,8 +50,10 @@ header{
         &.active{
             right: 0;
          }
-         background: rgba(0, 0, 0, 0.123);
          transition: all 0.9s ease-in-out;
+         top: 90px;
+         height: 580px;
+         text-align: center;
     }
 }
 main{
