@@ -59,6 +59,7 @@ header{
 main{
     .hero{
         background-size: 100px;
+        height: 700px;
         background-position: center;  
         background: linear-gradient(to bottom, rgba(8, 8, 8, 0.842), rgba(14, 13, 14, 0.877)), url("../img/pexels-karolina-grabowska-4968391.jpg");
         .content{
