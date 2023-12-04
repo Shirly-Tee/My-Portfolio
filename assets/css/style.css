@@ -113,8 +113,12 @@ main .services .wrapper .service .service2 {
 main .projects {
   background: #262626;
 }
-main .projects .wrapper .project-all .project1 .proimg {
+main .projects .wrapper .project-all .project1 .image {
   height: 250px;
+  width: 30%;
+}
+main .projects .wrapper .project-all .project1 .image img {
+  width: 100%;
 }
 main .projects .wrapper .project-all .project1 .under {
   background: black;

@@ -136,12 +136,15 @@ main{
     }
     .projects{
         background: #262626;
-        .wrapper{
-            
+        .wrapper{ 
             .project-all{
                 .project1{
-                    .proimg{
+                    .image{
                         height: 250px;
+                        width: 30%;
+                        img{
+                            width: 100%;
+                        }
                     }
                     .under{
                         background: black;
