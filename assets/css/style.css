@@ -49,8 +49,7 @@ header .sidebar {
   right: -1000px;
   transition: all 0.9s ease-in-out;
   top: 90px;
-  height: 620px;
-  text-align: center;
+  height: 100vh;
 }
 header .sidebar.active {
   right: 0;
