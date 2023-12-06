@@ -46,10 +46,10 @@ header .nav-all .navbar .link {
   color: #02DAC5;
 }
 header .sidebar {
-  right: 1000px;
+  right: -1000px;
   transition: all 0.9s ease-in-out;
   top: 90px;
-  height: 580px;
+  height: 620px;
   text-align: center;
 }
 header .sidebar.active {

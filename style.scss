@@ -46,13 +46,13 @@ header{
         
     }
     .sidebar{
-        right: 1000px;
+        right: -1000px;
         &.active{
             right: 0;
          }
          transition: all 0.9s ease-in-out;
          top: 90px;
-         height: 580px;
+         height: 620px;
          text-align: center;
     }
 }
