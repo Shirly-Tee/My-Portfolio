@@ -71,6 +71,7 @@ main .hero .content .design .name {
 }
 main .hero .content .work .name {
   color: #02DAC5;
+  font-size: 30px;
 }
 main .about {
   background: #131313;
