@@ -140,9 +140,8 @@ main{
         .wrapper{ 
             .project-all{
                 .project1{
-                    .image{
-                        height: 250px;
-                        width: 30%;
+                    flex-wrap: wrap;
+                    .proimg{
                         img{
                             width: 100%;
                         }
