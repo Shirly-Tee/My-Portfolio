@@ -86,6 +86,9 @@ main .about .wrapper .left h1 {
   color: #02DAC5;
   font-family: "Raleway";
 }
+main .about .wrapper .left .left1 {
+  flex-wrap: wrap;
+}
 main .about .wrapper .left .left1 .skill {
   font-family: "Raleway";
   color: #BDBDC7;
